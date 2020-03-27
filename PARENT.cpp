@@ -92,4 +92,10 @@ adr_p searchElmn_p(list_parent L, infotype x) {
 }
 void printInfo_p(list_parent L) {
     adr_p P = first(L);
+    cout << "   Parent  " << ": " << endl;
+    while(P != NULL) {
+        cout << info(P) << " | ";
+        P = next(P);
+    }
+    cout << endl;
 }
