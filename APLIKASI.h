@@ -14,16 +14,17 @@
 void MENU();
 void insert_parent();
 void insert_child();
-void view_parent();
-void view_child();
-void search_parent();
-void search_child();
-void relasikan();
-void view_relasi();
-void search_relasi();
-void delete_relasi();
+void relasikan_PC();
+void relasikan_CP();
 void delete_parent();
 void delete_child();
+void viewAll();
+void searchView_child();
+void searchView_parent();
+void searchView_Tipe();
 void close();
+
+
+
 
 #endif // APLIKASI_H_INCLUDED

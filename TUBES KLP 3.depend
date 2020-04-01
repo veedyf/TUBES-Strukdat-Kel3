@@ -1,61 +1,31 @@
 # depslib dependency file v1.0
-1585234292 source:d:\kuliah\semester 2 - 1920\tugas sms 2\struktur data\tubes\tubes klp 3\aplikasi.cpp
+1585509085 source:d:\kuliah\semester 2 - 1920\tugas sms 2\struktur data\tubes\tubes klp 3\aplikasi.cpp
 	"APLIKASI.h"
 
-1585231359 d:\kuliah\semester 2 - 1920\tugas sms 2\struktur data\tubes\tubes klp 3\aplikasi.h
+1585509050 d:\kuliah\semester 2 - 1920\tugas sms 2\struktur data\tubes\tubes klp 3\aplikasi.h
 	<iomanip>
 	<conio.h>
 	"PARENT.h"
 	"CHILD.h"
 	"RELASI.h"
 
-1585231792 d:\kuliah\semester 2 - 1920\tugas sms 2\struktur data\tubes\tubes klp 3\parent.h
+1585508626 d:\kuliah\semester 2 - 1920\tugas sms 2\struktur data\tubes\tubes klp 3\parent.h
 	<iostream>
 
-1585234071 d:\kuliah\semester 2 - 1920\tugas sms 2\struktur data\tubes\tubes klp 3\child.h
+1585508345 d:\kuliah\semester 2 - 1920\tugas sms 2\struktur data\tubes\tubes klp 3\child.h
 	<iostream>
 
-1585231763 d:\kuliah\semester 2 - 1920\tugas sms 2\struktur data\tubes\tubes klp 3\relasi.h
+1585504707 d:\kuliah\semester 2 - 1920\tugas sms 2\struktur data\tubes\tubes klp 3\relasi.h
 	"PARENT.h"
 	"CHILD.h"
 	<iostream>
 
-1585231566 source:d:\kuliah\semester 2 - 1920\tugas sms 2\struktur data\tubes\tubes klp 3\parent.cpp
+1585508150 source:d:\kuliah\semester 2 - 1920\tugas sms 2\struktur data\tubes\tubes klp 3\parent.cpp
 	"PARENT.h"
 
-1585234318 source:d:\kuliah\semester 2 - 1920\tugas sms 2\struktur data\tubes\tubes klp 3\relasi.cpp
+1585505632 source:d:\kuliah\semester 2 - 1920\tugas sms 2\struktur data\tubes\tubes klp 3\relasi.cpp
 	"RELASI.h"
 
-1585234088 source:d:\kuliah\semester 2 - 1920\tugas sms 2\struktur data\tubes\tubes klp 3\child.cpp
+1585508377 source:d:\kuliah\semester 2 - 1920\tugas sms 2\struktur data\tubes\tubes klp 3\child.cpp
 	"CHILD.h"
-
-1585234292 source:d:\collage\data structure\tubes klp 3\aplikasi.cpp
-	"APLIKASI.h"
-
-1585231359 d:\collage\data structure\tubes klp 3\aplikasi.h
-	<iomanip>
-	<conio.h>
-	"PARENT.h"
-	"CHILD.h"
-	"RELASI.h"
-
-1585231792 d:\collage\data structure\tubes klp 3\parent.h
-	<iostream>
-
-1585234071 d:\collage\data structure\tubes klp 3\child.h
-	<iostream>
-
-1585231763 d:\collage\data structure\tubes klp 3\relasi.h
-	"PARENT.h"
-	"CHILD.h"
-	<iostream>
-
-1585234088 source:d:\collage\data structure\tubes klp 3\child.cpp
-	"CHILD.h"
-
-1585231566 source:d:\collage\data structure\tubes klp 3\parent.cpp
-	"PARENT.h"
-
-1585234318 source:d:\collage\data structure\tubes klp 3\relasi.cpp
-	"RELASI.h"
 

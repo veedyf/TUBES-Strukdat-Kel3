@@ -21,7 +21,7 @@
 
 1. Menggunakan Model MultiList 1 (satu)
 2. PARENT -> Menggunakan Single Linked list
-3. CHILD  -> Menggunakan Double Linked List Circular
+3. CHILD  -> Menggunakan Circular Double Linked List
 4. RELASI -> Menggunakan Double Linked List
 
 #List PARENT -> PARENT.h
@@ -46,6 +46,7 @@
     void deleteAfter_p(list_parent &L, adr_p Prec, adr_p &P);
     adr_p searchElmn_p(list_parent L, infotype x);
     void printInfo_p(list_parent L);
+    void hapusData_p(list_parent L, infotype x);
 
 # Fungsi dan Prosedur Pada CHILD
     void createList_c(list_child &L);
@@ -57,6 +58,7 @@
     void deleteAfter_c(list_child &L, adr_c Prec, adr_c &C);
     adr_c searchElmn_c(list_child L, string nama);
     void printInfo_c(list_child L);
+    void hapusData_c(list_child L, string nama);
 
 # Fungsi dan Prosedur Pada RELASI
     void createList_r(list_relasi &L);
@@ -68,26 +70,27 @@
     void deleteAfter_r(list_relasi &L, adr_r Prec, adr_r &R);
     adr_r searchElmn_r(list_relasi L, adr_p P, adr_c C);
     void printInfo_r(list_relasi L);
+    void cariRelasiJalan(list_relasi L, string jalan);
+    void cariRelasiKota(list_relasi L, string kota);
+    void cariTipe(list_relasi L, string tipe);
 
 #Prosedur Pada APLIKASI
     void MENU();
     void insert_parent();
     void insert_child();
-    void view_parent();
-    void view_child();
-    void search_parent();
-    void search_child();
-    void relasikan();
-    void view_relasi();
-    void search_relasi();
-    void delete_relasi();
+    void relasikan_PC();
+    void relasikan_CP();
     void delete_parent();
     void delete_child();
+    void viewAll();
+    void searchView_child();
+    void searchView_parent();
+    void searchView_Tipe();
     void close();
 
 
 
 /* GILANG GUMELAR - 1302194089
-   MUHAMMAD VIDI FADILAKBAR - 1302194048
+   VIDI Fadil Akbar - 1302194048
    SE-43-02 / 2020
 */
